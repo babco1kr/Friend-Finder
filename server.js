@@ -2,7 +2,6 @@
 var express = require("express");
 var router = express.Router();
 var path = require("path");
-var friends = require("./app/data/friends.js")
 
 // Intializes express app
 var app = express();
@@ -14,14 +13,6 @@ app.use(express.json());
 app.use(express.static("app/public"));
 require("./app/routing/htmlRoutes.js")(app);
 require("./app/routing/apiRoutes.js")(app);
-
-
-app.post("/api/friends", function(req, res) {
-  var newfriend = req.body;
-
-  console.log(newfriend);
-  friends.push(newfriend);
-})
 
 app.listen(PORT, function() {
     console.log("App listening on PORT " + PORT);
