@@ -1,0 +1,30 @@
+{
+  "name": "friend-finder",
+  "version": "1.0.0",
+  "description": "A friend matching service based on responses from given survey",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.16.4",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/babco1kr/Friend-Finder.git"
+  },
+  "keywords": [
+    "node",
+    "npm",
+    "express"
+  ],
+  "author": "Kyle Babcock",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/babco1kr/Friend-Finder/issues"
+  },
+  "homepage": "https://github.com/babco1kr/Friend-Finder#readme"
+}
