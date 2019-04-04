@@ -1,6 +1,6 @@
 $("#getMatch").on("click", function(event) {
     event.preventDefault();
-
+    // Grabs all the values from the form that the user filled out
     var newFriend = {
       name: $("#userName").val().trim(),
       photo: $("#userPhoto").val().trim(),

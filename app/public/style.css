@@ -1,4 +1,12 @@
+body {
+    background-color: #4aaaaf;
+}
+
 #matchImage {
-    max-width: 50px;
-    max-height: 50px;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#getMatch {
+    width: 100%;
 }
