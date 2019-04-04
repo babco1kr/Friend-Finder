@@ -24,7 +24,7 @@
                 <label for="image">
                     <h4>Link to photo image (Required)</h4>
                 </label>
-                <input type = "text" class="form-control" id="userPhoto" required>
+                <input type="text" class="form-control" id="userPhoto" required>
             </div>
             <div class="form-group" id="question1">
                 <h4>QUESTION ONE</h4>
@@ -147,8 +147,39 @@
                 </select>
             </div>
 
-            <button type="submit" class="btn btn-primary" id = "getMatch">Submit</button>
+            <button type="submit" class="btn btn-primary" id="getMatch">Submit</button>
         </form>
+
+        <!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+        Launch demo modal
+      </button> -->
+
+        <!-- Modal -->
+        <div class="modal fade" id="matchModal" tabindex="-1" role="dialog"
+            aria-labelledby="MatchArea" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLongTitle">Your Match!</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div>
+                            <h3 id = "matchName"></h3>
+                        </div>
+                        <div>
+                            <img src = "" id = "matchImage">
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
         <footer class="footer">
             <a href="/api/friends">Api Friends List</a> |
             <a href="https://github.com/babco1kr/Friend-Finder">GitHub Repo</a>
@@ -163,8 +194,8 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
-        <script type = "text/javascript" src ="javascript/match.js"></script>
-        
+    <script type="text/javascript" src="javascript/match.js"></script>
+
 </body>
 
 </html>

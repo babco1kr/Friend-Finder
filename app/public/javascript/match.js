@@ -19,7 +19,10 @@ $("#getMatch").on("click", function(event) {
     };
 
     $.post("api/friends", newFriend).then(function(data) {
-        console.log(data);
-        alert("Friend Added");
+        // Populates the modal and toggles it to appear on completion
+        $("#matchImage").attr("src", data.photo);
+        $("#matchName").text(data.name);
+        $("#matchModal").modal("toggle");
     })
+    
   })
