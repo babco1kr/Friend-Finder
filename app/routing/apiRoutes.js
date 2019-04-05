@@ -1,4 +1,4 @@
-var friends = require("../data/friends.js")
+var friends = require("../data/friends.js");
 
 module.exports = function(app) {
 // Shows array of friends on the page
