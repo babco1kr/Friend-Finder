@@ -4,6 +4,8 @@ This application is a friend finder. It takes in user inputs and checks them aga
 
 Upon submiting information the page will display the match the application has found showing them the user's name and picture. This will also store the users info to compare to other users when they use the app.<br><br>
 
+You can see and use the application on Heroku here: https://damp-mountain-46915.herokuapp.com/
+
 <h3>On submission of the survey:</h3><br>
 
 ![functionality](/app/public/assets/functionality.gif)<br><br>
